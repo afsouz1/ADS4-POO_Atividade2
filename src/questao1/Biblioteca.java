@@ -31,7 +31,7 @@ public class Biblioteca {
         varAutor = in.nextLine();
         System.out.print("Insira o ANO DE PUBLICAÇÃO do livro: ");
         varAno = in.nextInt();
-        arrayLivros.add(new Livro(varTitulo, varAutor, varAno));        
+        arrayLivros.add(new Livro(varTitulo, varAutor, varAno));      
     }
 
     public void seeLivro(ArrayList<Livro> arrayLivros, Iterator<Livro> iter){
@@ -73,7 +73,7 @@ public class Biblioteca {
             if (temp.getAnoPublicacao() == varAnoPublicacao){
                 System.out.println(temp.toString());
             }
-        }
+        }  
     }
 
     public int mainMenu (Scanner in, int r){
