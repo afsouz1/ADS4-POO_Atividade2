@@ -8,7 +8,6 @@ public class Quarto {
     public Quarto(int numerQuarto, double valorDiaria){
         this.numeroQuarto = numerQuarto;
         this.valorDiaria = valorDiaria;
-
     }
 
     public int getNumeroQuarto() {
